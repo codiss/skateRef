@@ -1,16 +1,24 @@
-<p>ramp-builder works!</p>
-<form>
-    <label for="height">Height: </label>
-    <input type="text" type= "number" id="height" name="height" [(ngModel)]='height'/><br>
-    <label for="radius">Radius: </label>
-    <input type="text" type= "number" id="radius" name="radius" [(ngModel)]='radius'/><br>
-    <label for="flatLength">Flat Length: </label>
-    <input type="text" type= "number" id="flatLength" name="flatLength" [(ngModel)]='flatLength'/><br>
-    <label for="deckLength">Deck Length: </label>
-    <input type="text" type= "number" id="deckLength" name="deckLength" [(ngModel)]='deckLength'/><br>
-</form>
+
+
+<div class = "params-menu">
+     <div class = "units-menu">
+          <input type="radio" id="english" [(ngModel)] = "units"
+          name="units" value="english" checked="checked">
+          <label for="english">English</label>
+          <input type="radio" id="metric" [(ngModel)] = "units"
+               name="units" value="metric">
+          <label for="metric">Metric</label>
+     </div><br>
+
+     <sp-ramp-form-english *ngIf ="units == 'english'"
+     (messageEvent)=measurementsSet($event) [measurements] = "measurements" class="measurements-menu"></sp-ramp-form-english>
+
+     <sp-ramp-form-metric *ngIf ="units == 'metric'"
+     (messageEvent)=measurementsSet($event) [measurements] = "measurements"></sp-ramp-form-metric> 
+</div>
 
 
 
 
-<canvas width="600px" height="400px" style="border: 1px solid black;" id="canvas"></canvas>
+
+<canvas width="600px" height="450px" id="canvas" class="canvas"></canvas>

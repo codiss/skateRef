@@ -1,0 +1,39 @@
+.dim-form {
+    display: flex;
+}
+
+.params-menu {
+    position: relative;
+    background-color:#deb887;
+    font: helvitica;
+    font-weight: 700;
+    line-height: 0.3;
+    border: 2px solid;
+    border-radius: 5%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: 0;
+    border-color: black;
+    width: fit-content;
+}
+.canvas {
+    border: 2px solid;
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-color: black;
+}
+
+.units-menu {
+    position: relative;
+    width: fit-content;
+    right: 0;
+    padding: .3rem;
+    border-right: 2px dashed black;
+    border-bottom: 2px dashed;
+    border-bottom-right-radius: 5%;
+}
+
+.measurements-menu {
+    bottom: 0;
+    left: 1rem;
+}
