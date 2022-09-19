@@ -1,0 +1,44 @@
+[
+  {
+      "trickName": "Ollie",
+      "boardFrontside": false,
+      "riderFrontside": false,
+      "kickflip": false,
+      "boardDirection": "normal",
+      "boardDegrees": "0",
+      "riderDegrees": "0",
+      "flips": 0,
+      "videoUrl": "https://www.youtube.com/embed/KJnZvKwgZaA",
+      "videoProvider": "",
+      "videoProviderUrl": "",
+      "blurb": "An ollie is done by popping the tail and leveling the board, while rolling forward."
+    },
+    {
+      "trickName": "Kickflip",
+      "boardFrontside": false,
+      "riderFrontside": false,
+      "kickflip": true,
+      "boardDirection": "normal",
+      "boardDegrees": "0",
+      "riderDegrees": "0",
+      "flips": 1,
+      "videoUrl": "https://www.youtube.com/embed/EZhbRmYHjlI",
+      "videoProvider": "",
+      "videoProviderUrl": "",
+      "blurb": "An ollie is done by popping the tail and flicking the board with flicking your foot toward the back front corner, while rolling forward."
+    },
+    {
+      "trickName": "Half cab",
+      "boardFrontside": false,
+      "riderFrontside": false,
+      "kickflip": false,
+      "boardDirection": "fakie",
+      "boardDegrees": "180",
+      "riderDegrees": "180",
+      "flips": "0",
+      "videoUrl": "https://www.youtube.com/embed/Fsy_uqivyzY",
+      "videoProvider": "",
+      "videoProviderUrl": "",
+      "blurb": "A half cab is done rolling backwards and popping 180 degrees backside."
+    }
+  ]
