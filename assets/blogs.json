@@ -1,0 +1,6 @@
+[
+    {
+        "title": "First post",
+        "text": "Hi everyone.  I started this project to provide a few useful skateboard related utilities that I haven't seen around.  The ramp builder will give you both a profile view of a ramp with given dimensions, in order to visualize what the transition might look like.  It also can calculate the number of plys required.  The trick finder is to help find the names of tricks.  I will be adding more tricks as i go. Feel free to contact me at codiss@gmail.com with suggestions for more additions!"
+    }
+]
